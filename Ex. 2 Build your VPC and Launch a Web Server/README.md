@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: U.Rachitha
+* **Register Number**: 212225220078
+* **Date of Submission**:29/10/2026
 
 ---
 
@@ -85,13 +85,18 @@ Create a simple HTML page and verify that it can be accessed from a web browser 
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
+1.I started the lab and logged into the Amazon Web Services Management Console in the N. Virginia (us-east-1) region.
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+2.I created a custom VPC using Amazon VPC, configured public and private subnets, and enabled an Internet Gateway and NAT Gateway to manage internet connectivity.
+
+3.I added additional public and private subnets in a second Availability Zone and updated the route tables to ensure proper routing for both internet-facing and private traffic.
+
+4.I created a Security Group named Web Security Group and configured it to allow HTTP (port 80) access from anywhere to enable web traffic.
+
+5.I launched an EC2 instance using Amazon EC2 in the public subnet, enabled auto-assign public IP, attached the security group, and selected the required key pair.
+
+6.I configured a user data script to automatically install Apache and deploy a web application, then verified the web server by accessing the instance’s public DNS in a browser.
+
 
 ---
 
@@ -99,19 +104,22 @@ Create a simple HTML page and verify that it can be accessed from a web browser 
 
 ### Screenshot 1: VPC and Subnet Details
 
-(Insert Screenshot Here)
+<img width="1262" height="602" alt="Screenshot 2026-10-29 175457" src="https://github.com/user-attachments/assets/00f878ce-5b0b-4150-b89b-a996d2061297" />
+
 
 ---
 
 ### Screenshot 2: EC2 Instance Running
 
-(Insert Screenshot Here)
+<img width="1257" height="713" alt="Screenshot 2026-10-29 175542" src="https://github.com/user-attachments/assets/22e9999b-dba5-436d-a0c1-4abada7d7db8" />
+
 
 ---
 
 ### Screenshot 3: Web Server Output in Browser
 
-(Insert Screenshot Here)
+<img width="1255" height="585" alt="Screenshot 2026-10-29 175606" src="https://github.com/user-attachments/assets/744870a5-09ce-4958-92cd-4ece6f0be0a4" />
+
 
 ---
 
